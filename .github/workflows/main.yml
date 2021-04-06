@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: batikas9090:test/action.yml@1
+      uses: https://github.com/batikas9090/test/blob/6f3816e52ec80f32b9b36f12c73f000bbc4eee10/action.yml@1
       with:
         who-to-greet: 'batikas'
     # Use the output from the `hello` step

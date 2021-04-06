@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: batikas9090/test/action.yml@1
+      uses: actions/checkout@v2
       with:
         who-to-greet: 'batikas'
     # Use the output from the `hello` step
